@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Swift-MImageBrowser_Example' do
+  pod 'Swift-MImageBrowser', :path => '../'
+
+  target 'Swift-MImageBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
