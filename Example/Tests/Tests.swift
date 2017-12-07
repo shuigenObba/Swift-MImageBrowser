@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Swift-MImageBrowser
+import Swift_MImageBrowser
 
 class Tests: XCTestCase {
     

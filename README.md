@@ -22,7 +22,7 @@ pod 'Swift-MImageBrowser'
 
 ## Author
 
-huangshuigen, huangshuigen@sefon.com
+huangshuigen, huangshuigenoppa@163.com
 
 ## License
 

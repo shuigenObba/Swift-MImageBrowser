@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swift-MImageBrowser'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Swift-MImageBrowser.'
+  s.version          = '1.0.0'
+  s.summary          = 'Swift-MImageBrowser is used to for Image Browse'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,19 +24,22 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/huangshuigen/Swift-MImageBrowser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'huangshuigen' => 'huangshuigen@sefon.com' }
+  s.author           = { 'huangshuigen' => 'huangshuigenoppa@163.com' }
   s.source           = { :git => 'https://github.com/huangshuigen/Swift-MImageBrowser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Swift-MImageBrowser/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Swift-MImageBrowser' => ['Swift-MImageBrowser/Assets/*.png']
-  # }
+  s.resource = 'Swift-MImageBrowser/Assets/Image.bundle'
+#s.resource_bundles = {
+#   'Swift-MImageBrowser' => ['Swift-MImageBrowser/Assets/Image.bundle/*.png']
+# }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Swift-M', '1.0.3'
+  s.dependency 'Kingfisher', '4.3.1'
+  
 end

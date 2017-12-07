@@ -1,0 +1,6 @@
+framework module Swift_MImageBrowser {
+  umbrella header "Swift-MImageBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

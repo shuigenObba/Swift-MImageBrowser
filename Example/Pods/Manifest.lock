@@ -1,0 +1,27 @@
+PODS:
+  - Kingfisher (4.3.1)
+  - Swift-M (1.0.3):
+    - Swift-M/Extension (= 1.0.3)
+    - Swift-M/UIKit (= 1.0.3)
+  - Swift-M/Extension (1.0.3)
+  - Swift-M/UIKit (1.0.3):
+    - Swift-M/Extension
+  - Swift-MImageBrowser (1.0.0):
+    - Kingfisher (= 4.3.1)
+    - Swift-M (= 1.0.3)
+
+DEPENDENCIES:
+  - Swift-MImageBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  Swift-MImageBrowser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kingfisher: 75541c4b62f02e1fde6f9772303de3d9ebe8f5b3
+  Swift-M: 03ea3d77579bae36ae90b40f895f67389a5c4643
+  Swift-MImageBrowser: c24b1ddbdd0855e656c5c092f5ab5025cdfe0399
+
+PODFILE CHECKSUM: 4164b7ca1d0a13db4f292cbf1c1414a0f7fd7b8a
+
+COCOAPODS: 1.2.1
